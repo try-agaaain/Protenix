@@ -616,7 +616,14 @@ class HmmsearchA3MParser:
         for i, (h_seq, h_desc) in enumerate(parsed, start=1):
             if "mol:protein" not in h_desc:
                 continue
-            meta = HmmsearchA3MParser._parse_description(h_desc)
+            try:
+                meta = HmmsearchA3MParser._parse_description(h_desc)
+            except ValueError:
+                logger.warning(
+                    f"Skipping template hit {i} due to unparseable description: "
+                    f"{h_desc!r}"
+                )
+                continue
             cols = sum(1 for r in h_seq if r.isupper() and r != "-")
             idx_h = HmmsearchA3MParser._get_indices(h_seq, meta.start - 1)
             hits.append(

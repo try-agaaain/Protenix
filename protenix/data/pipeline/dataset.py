@@ -350,7 +350,11 @@ class BaseSingleDataset(Dataset):
                     continue
                 else:
                     raise Exception(e)
-        return data
+        raise RuntimeError(
+            f"Failed to load a valid sample after 10 retries. "
+            f"Last attempted idx: {idx}. Check the dataset for corrupted or "
+            f"unparseable entries."
+        )
 
     def _get_bioassembly_data(
         self, idx: int
