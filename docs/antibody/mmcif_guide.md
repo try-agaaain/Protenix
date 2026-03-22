@@ -2,7 +2,7 @@
 
 > 面向无生物学背景的开发者，结合 Protenix 项目代码讲解
 
-> **系列导航**：**mmCIF 格式** · [生物组装体](bioassembly_guide.md) · [MSA](msa_guide.md) · [模板](template_guide.md) · [预处理](preprocessing_guide.md) · [模型输入](model_input_guide.md) · [损失与优化](loss_and_optimization_guide.md)
+> **系列导航**：**mmCIF 格式** · [生物组装体](bioassembly_guide.md) · [MSA](msa_guide.md) · [hmmsearch](hmmsearch_guide.md) · [模板](template_guide.md) · [预处理](preprocessing_guide.md) · [模型输入](model_input_guide.md) · [损失与优化](loss_and_optimization_guide.md)
 
 ---
 

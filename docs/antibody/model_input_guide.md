@@ -2,7 +2,7 @@
 
 > 从特征字典到表示空间的完整信息流，面向无生物学背景的开发者
 
-> **系列导航**：[mmCIF 格式](mmcif_guide.md) · [生物组装体](bioassembly_guide.md) · [MSA](msa_guide.md) · [模板](template_guide.md) · [预处理](preprocessing_guide.md) · **模型输入** · [损失与优化](loss_and_optimization_guide.md)
+> **系列导航**：[mmCIF 格式](mmcif_guide.md) · [生物组装体](bioassembly_guide.md) · [MSA](msa_guide.md) · [hmmsearch](hmmsearch_guide.md) · [模板](template_guide.md) · [预处理](preprocessing_guide.md) · **模型输入** · [损失与优化](loss_and_optimization_guide.md)
 
 ---
 

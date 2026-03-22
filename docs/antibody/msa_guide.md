@@ -2,7 +2,7 @@
 
 > 面向无生物学背景的开发者，聚焦实现逻辑与设计思路
 
-> **系列导航**：[mmCIF 格式](mmcif_guide.md) · [生物组装体](bioassembly_guide.md) · **MSA** · [模板](template_guide.md) · [预处理](preprocessing_guide.md) · [模型输入](model_input_guide.md) · [损失与优化](loss_and_optimization_guide.md)
+> **系列导航**：[mmCIF 格式](mmcif_guide.md) · [生物组装体](bioassembly_guide.md) · **MSA** · [hmmsearch](hmmsearch_guide.md) · [模板](template_guide.md) · [预处理](preprocessing_guide.md) · [模型输入](model_input_guide.md) · [损失与优化](loss_and_optimization_guide.md)
 
 ---
 
